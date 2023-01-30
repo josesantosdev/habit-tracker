@@ -5,7 +5,6 @@ import { prisma } from './lib/prisma'
 
 export async function appRoutes(app: FastifyInstance) {
     
-    
     //Create Habit
     app.post('/habits', async (request) => {
         
